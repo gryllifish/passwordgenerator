@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="container">
+            <h1>Generate a <br>random password</h1>
+            <p>Never use an insecure password again.</p>
+                <label for="menu" class="label">Password length:</label>
+                <select id="menu" name="menu">
+                </select>
+                <label class="labelWide">
+                    <input type="checkbox" name="opciones" value="true" id="checkbox">
+                    No special characters.  
+                  </label>
+
+                <button id="generate-el" onclick="generatePass()">Generate passwords </button>
+            <hr>
+            <section class="wrapper">
+                <p class="passwords-el" id="password-elOne"></p>
+                <p class="passwords-el" id="password-elTwo"></p>
+            </section>
+        </section>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

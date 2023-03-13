@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background: #1C1C1C;
+}
+
+.container{
+    width: 450px;
+    height: 450px;
+    left: 50%;
+    top: 50%;
+    background: #1F2937;
+    border-radius: 0px;
+}
+
+h1, p, button, hr, p, label{
+    margin-left: 52px !important;
+    margin-right: 52px !important;
+}
+label{
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+}
+
+h1{
+    margin: 70px 0 10px 0;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    background-image: linear-gradient(to bottom, #FFFFFF 50%, #4ADF86 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+p, .label, .labelWide{
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 190px;
+
+    /* text-xl/leading-7/font-normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    
+    /* Medium grey */
+
+    color: #D5D4D8;
+
+}
+
+.labelWide{
+    margin-left: 5px !important;
+    font-size: 13px;
+}
+
+#generate-el{
+    /* Auto layout */
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+
+    margin-top: 30px;
+    background: #10B981;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 12px;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+hr{
+    width: 75%;
+    height: 0px;
+    border: 1px solid #2F3E53;
+    margin: 20px auto;   
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.passwords-el{
+    background: #273549;
+    width: 163px;
+    height: 35px;
+    border-radius: 6px;
+    margin-right: -40px !important;
+    color: #55F991;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 5px;
+
+}
+
+
+.message {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+
+select{
+    border-radius: 6px;
+}

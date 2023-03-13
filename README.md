@@ -1,0 +1,1 @@
+A simple password generator. You can choose the desired lenth and to include or not special characters. 

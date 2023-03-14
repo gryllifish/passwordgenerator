@@ -110,15 +110,20 @@ hr{
 }
 .passwords-el{
     background: #273549;
-    width: 163px;
+    width: 340px;
     height: 35px;
     border-radius: 6px;
-    margin-right: -40px !important;
+    margin: 0 auto;
     color: #55F991;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding-top: 5px;
+    letter-spacing: 1px;
 
+}
+.passwords-el:hover{
+    cursor:initial;
+    display:block;
 }
 
 
@@ -132,3 +137,18 @@ hr{
 select{
     border-radius: 6px;
 }
+i{
+    color: #9CA3AF;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-left: -30px;
+
+}
+.copyIcon {
+    display: none !important;
+  }
+  p:hover + .copyIcon {
+    display: block !important;
+  }
+  

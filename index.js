@@ -36,30 +36,30 @@ const filteredCharacters = characters.filter(function(character) {
 // Botón 
 let buttonEl = document.getElementById("generate-el")
 let passEl = document.getElementById("password-elOne")
-let passElTwo = document.getElementById("password-elTwo")
+//let passElTwo = document.getElementById("password-elTwo")
 
 function generatePass(){
     let randomPassword = []
-    let randomPasswordTwo = []
+    //let randomPasswordTwo = []
     for (let i = 0; i < selectedNumber; i++){
         if (isChecked === false){ 
             let randomIndex = Math.floor(Math.random() * characters.length)
-            let randomIndexTwo = Math.floor(Math.random() * characters.length)
+            //let randomIndexTwo = Math.floor(Math.random() * characters.length)
             let randomCharacter = characters[randomIndex]
-            let randomCharacterTwo = characters[randomIndexTwo]
+            //let randomCharacterTwo = characters[randomIndexTwo]
             randomPassword.push(randomCharacter)
-            randomPasswordTwo.push(randomCharacterTwo)
+           // randomPasswordTwo.push(randomCharacterTwo)
     }
         else{
             let randomIndex = Math.floor(Math.random() * filteredCharacters.length)
-            let randomIndexTwo = Math.floor(Math.random() * filteredCharacters.length)
+            //let randomIndexTwo = Math.floor(Math.random() * filteredCharacters.length)
             let randomCharacter = filteredCharacters[randomIndex]
-            let randomCharacterTwo = filteredCharacters[randomIndexTwo]
+            //let randomCharacterTwo = filteredCharacters[randomIndexTwo]
             randomPassword.push(randomCharacter)
-            randomPasswordTwo.push(randomCharacterTwo)
+            //randomPasswordTwo.push(randomCharacterTwo)
         }
     passEl.textContent = randomPassword.join("")
-    passElTwo.textContent = randomPasswordTwo.join("")
+    //passElTwo.textContent = randomPasswordTwo.join("")
 
 }
 
